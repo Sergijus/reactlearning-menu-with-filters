@@ -1,5 +1,4 @@
 const MenuCard = ({ title, price, img, desc }) => {
-  console.log(img);
   return (
     <article className="menu-item">
       <img src={img} alt={title} className="img" />
